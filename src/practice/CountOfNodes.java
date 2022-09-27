@@ -11,7 +11,7 @@ public class CountOfNodes {
 
     static class TreeNode {
         int value;
-        List<TreeNode> childNodes = new ArrayList<>();
+        List<TreeNode> childNodes = new ArrayList();
     }
 
 
@@ -34,7 +34,7 @@ public class CountOfNodes {
      and you can just focus on implementing the getSmallerNodeCount() API correctly.
      */
 
-    static Map<Integer, TreeNode> treeNodeMap = new HashMap<>();
+    static Map<Integer, TreeNode> treeNodeMap = new HashMap();
 
     public static void main(String[] args) throws NumberFormatException, IOException {
         int testcaseCount, nodeCount, childCount, nodeValue, childNode;

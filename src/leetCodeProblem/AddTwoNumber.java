@@ -23,8 +23,8 @@ public class AddTwoNumber {
     }
 
     public static void main(String [] args){
-        LinkedList<Integer> l1 = new LinkedList<>();
-        LinkedList<Integer> l2 = new LinkedList<>();
+        LinkedList<Integer> l1 = new LinkedList();
+        LinkedList<Integer> l2 = new LinkedList();
         for(int i=0;i<9;i++){
             l1.add(9);
             if(i<4){

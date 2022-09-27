@@ -162,7 +162,9 @@ public class Practice {
 
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String s = reader.readLine();
         long n = 1234567899;
         long rem = 0;
         long res = 0;
@@ -178,6 +180,10 @@ public class Practice {
 
         }
         int a [] = {-2,1};
+
+        String s1 = "world";
+        s.concat(s1); //Immutable
+        System.out.println(s);
       System.out.println(newNum);
 //        System.out.println(maxProfit(a));
 //        System.out.println(containsDuplicate(a));

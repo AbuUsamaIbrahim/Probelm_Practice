@@ -19,6 +19,8 @@
       <root url="jar://$PROJECT_DIR$/lib/spring-context-5.2.3.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/spring-tx-5.2.3.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/spring-test-5.2.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../IICT Poject KGDCL/IICT GIT LAB KGDCL/kgdcl/lib/ojdbc7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../IICT Poject KGDCL/IICT GIT LAB KGDCL/kgdcl/lib/ojdbc8-12.2.0.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

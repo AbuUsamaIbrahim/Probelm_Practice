@@ -1,5 +1,5 @@
 package designPattern.diPattern.simpleDI;
 
-public interface DrawingUnit {
+public interface Shape {
     public void draw();
 }
